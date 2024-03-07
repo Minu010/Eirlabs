@@ -1,10 +1,14 @@
-/*--------NAVBAR---------*/
+
+* {
+    box-sizing: border-box;
+}
 
 li, a, button {
     font-weight: 500;
     font-size: 16px;
     color: black;
     text-decoration: none;
+
 }
 
 header {
@@ -15,39 +19,36 @@ header {
 }
 
 .logo {
-    font-size: 30px;
-    font-weight: bold;
     cursor: pointer;
 }
 
-.navlinks {
-    list-style: none;
-}
-
-.navlinks li {
+.navLinks li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.navlinks li a {
-    transition: all 0.3s ease 0s;
+.navLinks li a{
+    transition: all 0.3s ease 0;
 }
 
-.navlinks li a:hover {
-    color: black;
-    transition: all 0.3s ease 0s;
+.navLinks li a:hover{
+    color: green;
 }
 
 button {
+    padding: 15px 25px;
     color: white;
-    padding: 15px 30px;
     background-color: black;
     border: none;
-    border-radius: 100px;
+    border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0;
 }
 
-#sesion:hover {
-    background-color: rgba(0, 136, 169, 1);
+button:hover {
+    background-color: green;
+}
+
+.logo:hover {
+    color: green;
 }
