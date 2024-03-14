@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Alinear el texto en el centro */
+}
+
+h1, .text-1, .container-child {
+    padding: 10px;
+}
+
+.container-child {
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+}
+
+.cta-1 {
+    font-weight: bold;
+    padding: 15px 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.learn {
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.cta-1 {
+    margin-right: 5px; /* Ajustar el margen derecho para separar los botones */
+}
+
+.learn {
+    margin-left: 5px; /* Ajustar el margen izquierdo para separar los botones */
+}
+
+.learn {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-1 {
+    text-align: center;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnMore {
+    margin: 5px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Alinear el texto en el centro */
+    padding: 50px;
+}
+
+.a2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.a3 {
+    padding: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    background-color: #F4F4F4;
+
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.a4 {
+    padding-top: 10px;
+}
+
+.faq {
+    background-color: #B0B0B0;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+}
+
+.faq-1 {
+ padding: 5px;   
+}
+
+.faq-2 {
+    padding: 5px;   
+   }
+
+.faq-3 {
+    padding: 12px;
+}
+
+.faq-4 {
+    padding: 10px;
+}
+
+.faq-5 {
+    padding-top: 10px;
+}
