@@ -1,7 +1,16 @@
-<form action="">
-    <h2>Iniciar sesión</h2>
-    <input type="text" placeholder="Correo electrónico">
-    <input type="text" placeholder="Contraseña">
-    <button>Iniciar sesión</button>
-    <a routerLink="/register">registrarse</a>
-</form>
+<div class="container">
+    <form [formGroup]="formUser" (ngSubmit)="procesar($event)">
+        <h2 class="a">Iniciar sesión</h2>
+        <input type="text" placeholder="Correo electrónico" class="a" id="email" formControlName="email">
+        <div class="alert alert-danger mt-2" [hidden]="email.valid || email.pristine">
+            El correo electrónico es requerido
+        </div>
+        <input type="password" placeholder="Contraseña" class="a" id="password" formControlName="password">
+        <div class="alert alert-danger mt-2" [hidden]="password.valid || password.pristine">
+            La contraseña es requerida
+        </div>
+
+        <button class="a button">Iniciar sesión</button>
+        <a routerLink="/register" class="a register">Registrarse</a>
+    </form>
+</div>
