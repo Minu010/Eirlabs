@@ -48,7 +48,7 @@ export class RegisterComponent implements OnInit {
     return this.formUser.get('confirmPassword');
   }
 
-  register() {
+  register($event: Event) {
     if (this.formUser.valid) {
       // Enviar los datos del formulario al servidor
       this.apiService.registrarUsuario(this.formUser.value).subscribe(

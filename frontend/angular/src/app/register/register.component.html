@@ -1,5 +1,5 @@
 <div class="container">
-    <form [formGroup]="formUser" (ngSubmit)="register()">
+    <form [formGroup]="formUser" (ngSubmit)="register($event)">
         <h2 class="a">Registrarse</h2>
         <div class="persona">
             <input type="text" placeholder="Nombre" class="a" formControlName="firstName">

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  private apiUrl = 'https://ejemplo.com/api'; // Reemplaza esto con la URL de tu servidor backend
+  private apiUrl = ''; // Reemplaza esto con la URL de tu servidor backend
 
   constructor(private http: HttpClient) { }
 
