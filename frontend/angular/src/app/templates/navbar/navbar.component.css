@@ -31,13 +31,13 @@ header {
 }
 
 .navLinks li a:hover{
-    color: green;
+    color: #25A18E;
 }
 
 button {
     padding: 15px 25px;
     color: white;
-    background-color: black;
+    background-color: #25A18E;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -45,9 +45,9 @@ button {
 }
 
 button:hover {
-    background-color: green;
+    background-color: #25A18E;
 }
 
-.logo:hover {
-    color: green;
+.logo {
+    color: #25A18E;
 }
