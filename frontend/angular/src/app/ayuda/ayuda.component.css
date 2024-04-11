@@ -1,4 +1,5 @@
 .ayuda-texto{
+    display: flex;
     font: 1.3em 'Inter', 'Franklin Gothic Medium', Arial;
     justify-content: center;
     align-items: flex-end;
