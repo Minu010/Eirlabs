@@ -1,5 +1,8 @@
 footer {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
 }
 
 h2 {
@@ -29,4 +32,9 @@ h2 {
 
 .ddd{
     padding: 5px;
+}
+
+.linea {
+    display: flex;
+    flex-direction: row;
 }

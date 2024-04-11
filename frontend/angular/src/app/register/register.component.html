@@ -1,1 +1,16 @@
-<p>register works!</p>
+<div class="container">
+    <form [formGroup]="formUser" (ngSubmit)="register($event)">
+        <h2 class="a">Registrarse</h2>
+        <div class="persona">
+            <input type="text" placeholder="Nombre" class="a" formControlName="firstName">
+            <input type="text" placeholder="Apellido" class="a" formControlName="lastName">
+        </div>
+
+        <input type="text" placeholder="Teléfono" class="a" formControlName="phone">
+        <input type="text" placeholder="Correo electrónico" class="a" formControlName="email">
+        <input type="password" placeholder="Contraseña" class="a" formControlName="password">
+        <input type="password" placeholder="Repetir contraseña" class="a" formControlName="confirmPassword">
+        <button type="submit" class="a" [disabled]="formUser.invalid">Empezar</button>
+        <a routerLink="/login" class="a register">Iniciar sesión</a>
+    </form>
+</div>

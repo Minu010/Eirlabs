@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.a {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+}
+
+.register {
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+input {
+    border-radius: 100px;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    color: black;
+}
+
+input#email::placeholder {
+    color: black;
+    text-align: center;
+}
+
+input#password::placeholder {
+    color: black;
+    text-align: center;
+}
