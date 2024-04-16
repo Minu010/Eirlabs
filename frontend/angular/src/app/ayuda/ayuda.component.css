@@ -1,10 +1,31 @@
-.ayuda-texto{
+.ayuda-container {
     display: flex;
-    flex-direction: row;
-    font: 1.3em 'Inter', 'Franklin Gothic Medium', Arial;
-    justify-content: center;
-    align-items: flex-end;
+    flex-flow: row nowrap;
+    /* gap: 1.3em; */
+    padding: 3%;
+
+
 }
+.ayuda-img {
+    border: 1px rgb(0, 110, 255) solid;
+    justify-content: left;
+    align-items: flex-start;
+    width: 200px;
+    height: 100px;
+    /* size: 200px 100px; */
+    border-radius: 25px;
+
+    
+}
+.ayuda-texto {
+    border: 1px rgb(255, 0, 157) solid;
+    display: flex;
+    flex-flow: row wrap;
+    font: 1.3em 'Inter', 'Franklin Gothic Medium', Arial;
+    justify-content: end;
+    align-items: flex-start;
+}
+
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
 https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
 https://developer.mozilla.org/es/docs/Web/CSS/flex */
