@@ -3,27 +3,32 @@
     flex-flow: row nowrap;
     /* gap: 1.3em; */
     padding: 3%;
-
-
+    gap: 1.3em;
+    justify-content: space-between;
 }
+
 .ayuda-img {
-    border: 1px rgb(0, 110, 255) solid;
+    /* border: 1px rgb(0, 110, 255) solid; */
     justify-content: left;
     align-items: flex-start;
-    width: 200px;
-    height: 100px;
-    /* size: 200px 100px; */
     border-radius: 25px;
-
-    
 }
+
+.ayuda-img img {
+    width: 500px;
+    height: 400px;
+    /* border: 5px solid #ff0000; */
+    border-radius: 8.2%;
+}
+
 .ayuda-texto {
     border: 1px rgb(255, 0, 157) solid;
     display: flex;
     flex-flow: row wrap;
     font: 1.3em 'Inter', 'Franklin Gothic Medium', Arial;
     justify-content: end;
-    align-items: flex-start;
+    align-self:flex-start; /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
+    padding: 1%;
 }
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
