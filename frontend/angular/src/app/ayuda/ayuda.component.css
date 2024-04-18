@@ -1,10 +1,11 @@
 .ayuda-container {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     /* gap: 1.3em; */
     padding: 3%;
     gap: 1.3em;
     justify-content: space-between;
+    /* object-fit: cover; */
 }
 
 .ayuda-img {
@@ -12,6 +13,7 @@
     justify-content: left;
     align-items: flex-start;
     border-radius: 25px;
+
 }
 
 .ayuda-img img {
@@ -31,6 +33,10 @@
     padding: 1%;
 }
 
-/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
+/*
+https://www.sjdhospitalbarcelona.org/es/necesitas-ayuda
+https://www.freepik.es/search?format=search&last_filter=selection&last_value=1&query=enfermera%20ayudando%20paciente&selection=1
+https://www.freepik.es/foto-gratis/mujer-tiro-medio-enfermera-tomados-mano_20825700.htm#fromView=search&page=1&position=5&uuid=56045989-b436-4232-aef9-97d849b54ee4
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
 https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
 https://developer.mozilla.org/es/docs/Web/CSS/flex */
