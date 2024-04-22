@@ -2,19 +2,32 @@
     display: flex;
     flex-flow: column nowrap;
     /* gap: 1.3em; */
-    padding: 3%;
+
     gap: 1.3em;
     justify-content: space-between;
     /* object-fit: cover; */
+    /* https://http.cat/ */
+}
+
+.ayuda-banner {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    /* background-size: auto; */
+    /* background-position: 50% 10%; */
+    
 }
 
 .ayuda-img {
     /* border: 1px rgb(0, 110, 255) solid; */
+    flex-flow: row nowrap;
     justify-content: left;
     align-items: flex-start;
     border-radius: 25px;
+    padding: 3%;
 
 }
+
 
 .ayuda-img img {
     width: 500px;
@@ -29,7 +42,8 @@
     flex-flow: row wrap;
     font: 1.3em 'Inter', 'Franklin Gothic Medium', Arial;
     justify-content: end;
-    align-self:flex-start; /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
+    align-self: flex-start;
+    /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
     padding: 1%;
 }
 
