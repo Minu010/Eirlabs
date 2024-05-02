@@ -1,21 +1,23 @@
+.ayuda-banner {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1%;
+    /* background-size: auto; */
+    /* background-position: 50% 10%; */
+
+}
+
 .ayuda-container {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     /* gap: 1.3em; */
 
     gap: 1.3em;
     justify-content: space-between;
+
     /* object-fit: cover; */
     /* https://http.cat/ */
-}
-
-.ayuda-banner {
-    height: 200px;
-    width: auto;
-    object-fit: cover;
-    /* background-size: auto; */
-    /* background-position: 50% 10%; */
-    
 }
 
 .ayuda-img {
@@ -27,7 +29,6 @@
     padding: 3%;
 
 }
-
 
 .ayuda-img img {
     width: 500px;
@@ -45,6 +46,11 @@
     align-self: flex-start;
     /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
     padding: 1%;
+}
+.ayuda-texto h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*
