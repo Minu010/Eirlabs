@@ -10,16 +10,13 @@
 
 .ayuda-container {
     display: flex;
-    flex-flow: row nowrap;
-    /* gap: 1.3em; */
-
+    flex-flow: column nowrap;
     gap: 1.3em;
     justify-content: space-between;
-
     /* object-fit: cover; */
     /* https://http.cat/ */
 }
-
+/* VVV Esto era para las imagenes, ahora no se si se volvera a usar pero lo dejo por si acaso */
 .ayuda-img {
     /* border: 1px rgb(0, 110, 255) solid; */
     flex-flow: row nowrap;
@@ -27,7 +24,6 @@
     align-items: flex-start;
     border-radius: 25px;
     padding: 3%;
-
 }
 
 .ayuda-img img {
@@ -36,21 +32,24 @@
     /* border: 5px solid #ff0000; */
     border-radius: 8.2%;
 }
-
+/* ^^^ */
 .ayuda-texto {
     border: 1px rgb(255, 0, 157) solid;
-    display: flex;
-    flex-flow: row wrap;
     font: 1.3em 'Inter', 'Franklin Gothic Medium', Arial;
-    justify-content: end;
-    align-self: flex-start;
+    /* justify-content: end; */
+    /* align-self: flex-start; */
     /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
     padding: 1%;
 }
 .ayuda-texto h1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* VVVVVVVVVVVVVVVVVVVVVVV
+    Estos dos vienen a ser lo mismo
+    margin: auto;
+    width: fit-content; 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    */
 }
 
 /*
