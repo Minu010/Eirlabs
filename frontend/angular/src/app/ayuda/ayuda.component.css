@@ -16,6 +16,7 @@
     /* object-fit: cover; */
     /* https://http.cat/ */
 }
+
 /* VVV Esto era para las imagenes, ahora no se si se volvera a usar pero lo dejo por si acaso */
 .ayuda-img {
     /* border: 1px rgb(0, 110, 255) solid; */
@@ -32,6 +33,7 @@
     /* border: 5px solid #ff0000; */
     border-radius: 8.2%;
 }
+
 /* ^^^ */
 .ayuda-texto {
     border: 1px rgb(255, 0, 157) solid;
@@ -41,17 +43,44 @@
     /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
     padding: 1%;
 }
-.ayuda-texto h1{
+
+.ayuda-texto h1 {
     display: flex;
     justify-content: center;
+    background-color: #25A18E;
+    color: #ffffff;
     /* VVVVVVVVVVVVVVVVVVVVVVV
     Estos dos vienen a ser lo mismo
     margin: auto;
     width: fit-content; 
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     */
-    
 }
+
+.ayuda-texto h2 {
+    display: flex;
+    justify-content: center;
+    color: #25A18E;
+}
+
+.preguntas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 0 10% 0 10%;
+    padding: 1% 5% 1% 5%;
+    
+    border: solid;
+    border-color: #25A18E;
+    border-radius: 10%;
+    gap: 5em;
+    display: block;
+}
+/* .preguntas div{
+    width: 50%;
+} */
 
 /*
 https://www.sjdhospitalbarcelona.org/es/necesitas-ayuda
