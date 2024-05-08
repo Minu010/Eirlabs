@@ -63,17 +63,21 @@
     color: #25A18E;
 }
 
+h2 :hover {
+    color: yellowgreen;
+}
+
 .preguntas {
     /* display: flex; */
     flex-wrap: wrap;
     /* flex-flow: column nowrap; */
     justify-content: space-evenly;
     align-items: baseline;
-    margin: 0 10% 0 10%;
-    padding: 1% 5% 1% 5%;
+    margin: 0 10%;
+    padding: 1% 5%;
     /* <number> valores */
-flex-grow: 3;
-/* flex-grow: 0.6; */
+    flex-grow: 3;
+    /* flex-grow: 0.6; */
 
     border: solid;
     border-color: #25A18E;
@@ -81,6 +85,13 @@ flex-grow: 3;
     gap: 5em;
     display: block;
 }
+
+.preguntas :hover {
+    color: #25A18E;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
 /* .preguntas div{
     width: 50%;
 } */
