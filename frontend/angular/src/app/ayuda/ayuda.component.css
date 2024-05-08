@@ -35,9 +35,10 @@
 }
 
 /* ^^^ */
+
 .ayuda-texto {
-    border: 1px rgb(255, 0, 157) solid;
-    font: 1.3em 'Inter', 'Franklin Gothic Medium', Arial;
+    /* border: 1px rgb(255, 0, 157) solid; */
+    font: 1.3em 'Inter', Arial;
     /* justify-content: end; */
     /* align-self: flex-start; */
     /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
@@ -63,33 +64,29 @@
     color: #25A18E;
 }
 
-h2 :hover {
-    color: yellowgreen;
-}
-
 .preguntas {
-    /* display: flex; */
-    flex-wrap: wrap;
-    /* flex-flow: column nowrap; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items: baseline;
-    margin: 0 10%;
+    /* align-items: center; */
+    margin: 1% 25%;
     padding: 1% 5%;
-    /* <number> valores */
-    flex-grow: 3;
-    /* flex-grow: 0.6; */
-
     border: solid;
     border-color: #25A18E;
-    border-radius: 10%;
-    gap: 5em;
-    display: block;
+    border-radius: 29px;
+    /* gap: 200px; */
+    column-gap: 20px;
+
+    /* grid-gap: 25px 5px; */
+    /* display: block; */
+    /* box-sizing: border-box; */
 }
 
-.preguntas :hover {
+.preguntas > div :hover {
     color: #25A18E;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 /* .preguntas div{
