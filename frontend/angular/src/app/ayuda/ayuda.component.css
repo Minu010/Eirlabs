@@ -93,10 +93,22 @@
     width: 50%;
 } */
 
+h3{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    color: #25A18E;
+    text-decoration: double wavy ;
+    margin: 1.7%;
+}
+
 /*
 https://www.sjdhospitalbarcelona.org/es/necesitas-ayuda
 https://www.freepik.es/search?format=search&last_filter=selection&last_value=1&query=enfermera%20ayudando%20paciente&selection=1
 https://www.freepik.es/foto-gratis/mujer-tiro-medio-enfermera-tomados-mano_20825700.htm#fromView=search&page=1&position=5&uuid=56045989-b436-4232-aef9-97d849b54ee4
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties
 https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
-https://developer.mozilla.org/es/docs/Web/CSS/flex */
+https://developer.mozilla.org/es/docs/Web/CSS/flex 
+
+https://app.simplified.com/ai-writer/document/10524408/7793856f-6a38-429c-8bdc-04e6691bdbff?action=create&path=%2Fai&fields=%7B%22type%22%3A%22freestyle%22%2C%22title%22%3A%22explica+porque+la+clinica+eir+labs+es+buna+asi+como+su+planteamiento+simpificado+hacia+las+enfermera+y+enfermeros%22%2C%22output%22%3A%22es%22%7D
+*/
