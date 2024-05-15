@@ -19,6 +19,7 @@ h2 {
     flex-direction: row;
     justify-content: center;
     padding-bottom: 10px;
+    /* flex-wrap: nowrap; */
 }
 .pie a{
     color: white;
