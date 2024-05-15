@@ -15,18 +15,21 @@
     z-index: 1;
     position: absolute;
     /* background-color: red; */
-    background: linear-gradient(3deg,
-            rgb(255, 255, 255) 13%,
-            #25A18E33 13.6%,
-            #25A18E33 13.6%);
+    background: linear-gradient(3deg, #ffffff 13%, #25A18E33 13.6%, #25A18E33 13.6%)
+        /*Le da forma al triangulo blanco*/
+        ,
+        /*Esto VVV es el gradiente verde que cubre los lados para que no se note tanto que se repita el banner en ciertas resoluciones*/
+        linear-gradient(90deg, #25A18E 3%, #25a18e48 10%, #25a18e00 50%, #25a18e00 51%, #25a18e48 90%, #25A18D 97%);
 }
 
 .triangulo {
     position: relative;
+    width: 100%;
 }
 
 .triangulo>div {
     height: 400px;
+    width: 100%;
 }
 
 .ayuda-container {
@@ -36,6 +39,7 @@
     justify-content: space-between;
     /* object-fit: cover; */
     /* https://http.cat/ */
+    /* border: 10px solid #25A18E; */
 }
 
 /* VVV Esto era para las imagenes, ahora no se si se volvera a usar pero lo dejo por si acaso */
@@ -64,13 +68,21 @@
     /* align-self: flex-start; */
     /*Esto usa el cross axis para alinearse al principio, ya que flex es row el cross axis sera column por lo que se ira al arriba en vertical ya que ese es el principio de "column".*/
     padding: 1%;
+    margin-top: -280px;
+    z-index: 2;
+
 }
 
 .ayuda-texto h1 {
     display: flex;
     justify-content: center;
-    background-color: #25A18E;
     color: #ffffff;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+    margin-bottom: calc(200px + 1em);
+    font-weight: 700;
+
+
+
     /* VVVVVVVVVVVVVVVVVVVVVVV
     Estos dos vienen a ser lo mismo
     margin: auto;
@@ -78,6 +90,8 @@
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     */
 }
+
+
 
 .ayuda-texto h2 {
     display: flex;
@@ -104,9 +118,10 @@
     /* box-sizing: border-box; */
 }
 
-.preguntas>div{
+.preguntas>div {
     transition: all 1s ease-in-out;
 }
+
 .preguntas>div :hover {
     color: #25A18E;
     font-weight: bold;
