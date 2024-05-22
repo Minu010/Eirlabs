@@ -1,13 +1,17 @@
 * {
     box-sizing: border-box;
 }
-
+li{
+    /* border-bottom: 1px solid grey; */
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
 li, a, button {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.2em;
     color: black;
     text-decoration: none;
-
+   
 }
 
 header {

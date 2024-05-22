@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./ayuda.component.css']
 })
 export class AyudaComponent {
+  
 
 }
