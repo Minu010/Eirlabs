@@ -13,6 +13,10 @@ form {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
 }
 
+h2 {
+    color: #004E64;
+}
+
 .a {
     margin: 15px;
     display: flex;
@@ -35,10 +39,7 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0;
-}
-
-button:hover {
-    background-color: green;
+    background-color: #25A18E;
 }
 
 .register {
@@ -68,4 +69,8 @@ input {
 #input-p::placeholder {
     color: black;
     text-align: center;
+}
+
+a:hover {
+    color: #25A18E;
 }

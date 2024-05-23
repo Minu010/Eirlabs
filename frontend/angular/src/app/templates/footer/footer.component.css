@@ -3,6 +3,7 @@ footer {
     flex-direction: column;
     position: relative;
     bottom: 0;
+    background-color: #25A18E;
 }
 
 h2 {
@@ -10,6 +11,7 @@ h2 {
     flex-direction: row;
     justify-content: center;
     padding: 10px;
+    color: white;
 }
 
 .pie {
@@ -18,9 +20,14 @@ h2 {
     justify-content: center;
     padding-bottom: 10px;
 }
+.pie a{
+    color: white;
+}
 
 .margen {
     padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .ppp {
@@ -28,10 +35,12 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    color: white;
 }
 
 .ddd{
     padding: 5px;
+    color: white;
 }
 
 .linea {

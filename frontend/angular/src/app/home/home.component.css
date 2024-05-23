@@ -9,6 +9,10 @@ h1, .text-1, .container-child {
     padding: 10px;
 }
 
+h1 {
+    color: #004E64;
+}
+
 .container-child {
     display: flex;
     justify-content: center; /* Centrar los elementos horizontalmente */
@@ -19,7 +23,7 @@ h1, .text-1, .container-child {
     font-weight: bold;
     padding: 15px 25px;
     color: white;
-    background-color: black;
+    background-color: #004E64;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -34,6 +38,19 @@ h1, .text-1, .container-child {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0;
+    color: #004E64;
+}
+
+.learn-2 {
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    color: black;
+    text-decoration: none;
 }
 
 .cta-1 {
@@ -46,7 +63,6 @@ h1, .text-1, .container-child {
 
 .learn {
     text-decoration: none;
-    color: #000;
 }
 
 .text-1 {
@@ -89,7 +105,7 @@ h1, .text-1, .container-child {
     display: flex;
     padding: 50px;
     margin: 10px;
-    background-color: #F4F4F4;
+    background-color: #9FFFCB;
 
 }
 
@@ -111,8 +127,8 @@ h1, .text-1, .container-child {
 }
 
 .faq {
-    background-color: #B0B0B0;
-    color: white;
+    background-color: #9FFFCB;
+    color: black;
 
     display: flex;
     flex-direction: row;

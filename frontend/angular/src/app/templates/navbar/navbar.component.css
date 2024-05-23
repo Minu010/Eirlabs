@@ -30,9 +30,7 @@ header {
     transition: all 0.3s ease 0;
 }
 
-.navLinks li a:hover{
-    color: #25A18E;
-}
+
 
 button {
     padding: 15px 25px;

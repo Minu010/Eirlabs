@@ -18,6 +18,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: #004E64;
 }
 
 .button {
@@ -30,11 +31,7 @@ form {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0;
-}
-
-.button:hover {
-    background-color: green;
-    color: white;
+    background-color: #25A18E;
 }
 
 .register {
@@ -59,4 +56,8 @@ input#email::placeholder {
 input#password::placeholder {
     color: black;
     text-align: center;
+}
+
+a:hover {
+    color: #25A18E;
 }
