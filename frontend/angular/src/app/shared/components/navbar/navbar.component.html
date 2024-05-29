@@ -1,0 +1,12 @@
+<header class="navegacion" [ngClass]="{ 'transparent-bg': isTransparent, 'white-bg': !isTransparent }">
+    <a routerLink="/home"><h1 class="logo">EIRLABS</h1></a>
+    <nav>
+        <ul class="navLinks">
+            <li><a href="/home">Inicio</a></li>
+            <li><a routerLink="/sobre-nosotros">Sobre nosotros</a></li>
+            <li><a routerLink="/ayuda">Ayuda</a></li>
+        </ul>
+    </nav>
+
+    <a routerLink="/login"><button class="cta">Iniciar sesión</button></a>
+</header>

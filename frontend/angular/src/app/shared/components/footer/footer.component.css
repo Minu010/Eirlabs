@@ -1,0 +1,51 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    background-color: white;
+    padding-top: 20px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    color: #004E64;
+    font-weight: bold;
+}
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.pie a{
+    color: black;
+}
+
+.margen {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ppp {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: black;
+}
+
+.ddd{
+    padding: 5px;
+    color: black;
+}
+
+.linea {
+    display: flex;
+    flex-direction: row;
+}

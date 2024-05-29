@@ -1,0 +1,23 @@
+    <div class="contact-container">
+
+        <form [formGroup]="contactoForm" (ngSubmit)="enviarFormulario()" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contáctanos</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="42d27401-9855-4373-a2cd-181c586fa405">
+            <input type="text" name="name" placeholder="Tu Nombre" class="contact-inputs" formControlName="name">
+            <div *ngIf="formErrors.name" class="error">{{ formErrors.name }}</div>
+            
+            <input type="email" name="email" placeholder="Tu Email" class="contact-inputs" formControlName="email">
+            <div *ngIf="formErrors.email" class="error">{{ formErrors.email }}</div>
+            
+            <textarea name="message" placeholder="Tu Mensaje" class="contact-inputs" formControlName="message"></textarea>
+            <div *ngIf="formErrors.message" class="error">{{ formErrors.message }}</div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        
+        
+        
+    </div>

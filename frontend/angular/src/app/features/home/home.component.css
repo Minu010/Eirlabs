@@ -1,0 +1,202 @@
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 180px;
+    position: relative;
+    overflow: hidden; /* Asegura que la imagen desenfocada no se muestre fuera del contenedor */
+    z-index: 0; /* Asegura que el contenido esté por encima de la imagen de fondo */
+    background-image: url("../../../assets/pexels-chokniti-khongchum-1197604-2280568.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.1);
+    backdrop-filter: blur(1px); /* Ajusta el valor de blur según lo desees */
+    z-index: -1;
+}
+
+
+h1, .text-1, .container-child {
+    padding: 10px;
+}
+
+.text-1 {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.container-child {
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+}
+
+.cta-1 {
+    font-weight: bold;
+    padding: 15px 25px;
+    color: white;
+    background-color: #25A18E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.learn {
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    color: #004E64;
+}
+
+.learn-2 {
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    color: black;
+    text-decoration: none;
+}
+
+.cta-1 {
+    margin-right: 5px; /* Ajustar el margen derecho para separar los botones */
+}
+
+.learn {
+    margin-left: 5px; /* Ajustar el margen izquierdo para separar los botones */
+}
+
+.learn {
+    text-decoration: none;
+}
+
+.text-1 {
+    text-align: center;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnMore {
+    margin: 5px;
+}
+
+.container-2 {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Alinear el texto en el centro */
+    padding: 50px;
+}
+
+.a1 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.a2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.a3 {
+    padding: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    background-color: #7AE582;
+
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.a4 {
+    color: white;
+}
+
+.icon {
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+
+.path {
+
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.a4 {
+    padding-top: 10px;
+}
+
+.faq {
+    background-color: #7AE582;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+}
+
+.faq-1 {
+ padding: 5px;   
+}
+
+.faq-2 {
+    padding: 5px;   
+   }
+
+.faq-3 {
+    padding: 12px;
+}
+
+.faq-4 {
+    padding: 10px;
+}
+
+.faq-5 {
+    padding-top: 10px;
+}

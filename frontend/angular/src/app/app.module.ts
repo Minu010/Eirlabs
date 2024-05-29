@@ -3,15 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './templates/navbar/navbar.component';
-import { FooterComponent } from './templates/footer/footer.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { HomeComponent } from './features/home/home.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { AboutUsComponent } from './features/about-us/about-us.component';
+import { ErrorComponent } from './shared/components/error/error.component';
+import { TermsComponent } from './features/terms/terms.component';
+import { ContactComponent } from './shared/components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ErrorComponent,
+    TermsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

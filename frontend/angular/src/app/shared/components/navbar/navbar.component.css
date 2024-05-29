@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(4px);
+    transition: background-color 0.1s ease;
+}
+
+.white-bg {
+    background-color: white !important;
+    transition: background-color 0.1s ease;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px 15px 60px;
+    position: fixed; /* Fija el navbar */
+    top: 0; /* Lo sitúa en la parte superior */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.logo {
+    cursor: pointer;
+    font-weight: bold;
+    color: #25A18E; /* Mueve el color aquí para evitar duplicados */
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0;
+}
+
+button {
+    padding: 15px 25px;
+    color: white;
+    background-color: #25A18E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}

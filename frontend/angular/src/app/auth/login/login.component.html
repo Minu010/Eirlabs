@@ -1,0 +1,19 @@
+<!-- frontend/angular/src/app/auth/login/login.component.html -->
+<br><br>
+<div class="container">
+    <form [formGroup]="formUser" (ngSubmit)="procesar($event)">
+        <h2 class="a">Iniciar sesión</h2>
+        <input type="text" placeholder="Correo electrónico" class="a" id="email" formControlName="email">
+        <div class="alert alert-danger mt-2" *ngIf="email?.touched && email?.errors?.required">
+            El correo electrónico es requerido
+        </div>
+        <input type="password" placeholder="Contraseña" class="a" id="password" formControlName="password">
+        <div class="alert alert-danger mt-2" *ngIf="password?.touched && password?.errors?.required">
+            La contraseña es requerida
+        </div>
+
+        <button type="submit" class="a button" [disabled]="formUser.invalid">Iniciar sesión</button>
+        <a routerLink="/register" class="a register">Registrarse</a>
+
+    </form>
+</div>
